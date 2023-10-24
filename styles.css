@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&family=Sometype+Mono:wght@400;500;600&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
@@ -10,13 +12,12 @@ body{
     align-items: center;
     text-align: center;
     height: 100vh;
-    background: url(images/background.jpg) no-repeat center center/ cover;
-    /* opacity: 95%; */
+    background: url(images/background.jpg) no-repeat center center/ cover ;
 }
 
 .container{
-    width: 450px;
-    height: 350px;
+    width: 420px;
+    height: 300px;
 }
 
 .header{
@@ -27,31 +28,34 @@ body{
 }
 
 .main-content {
-    height: 280px;
+    height: 250px;
     background-color: antiquewhite;
     width: 100%;
     padding: 50px 25px;
-    box-shadow:  0 0 20px;
-    border-radius: 4px;
-    
+    box-shadow:  0 0 30px;
+    border-radius: 4px;    
 }
 
 .textarea{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
     line-height: 1.25;
+    font-weight: 500;
 }
 
 .person{
     font-size: 18px;
     text-transform: uppercase;
-    margin-top: 12px;
+    font-weight: 500;
+    margin-top: 14px;
 }
 
 #new-quote{
-    margin-top: 24px;
+    font-family: "Calibri";
+    margin-top: 20px;
     border: none;
-    color: white;
-    background-color: darkslategrey;
+    color: black;
+    background-color: antiquewhite;
     padding: 6px 8px;
-    box-shadow: 0 0 2px;
+    box-shadow: 0 0 3px;
 }
