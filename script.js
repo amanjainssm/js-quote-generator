@@ -1,4 +1,4 @@
-const btn = document.querySelector('#new-quote');
+const btn = document.querySelector('#new-quote-btn');
 const quote = document.querySelector('.quote');
 const person = document.querySelector('.person');
 
