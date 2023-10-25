@@ -12,28 +12,44 @@ body{
     align-items: center;
     text-align: center;
     height: 100vh;
-    background: url(images/background.jpg) no-repeat center center/ cover ;
+}
+body::after {
+    content: "";
+    background: url(images/background.jpg) no-repeat center center;
+    opacity: 0.80; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; 
 }
 
 .container{
-    width: 420px;
-    height: 300px;
+    width: 440px;
+    height: 400px;
 }
 
 .header{
     color: rgb(19, 18, 41);
     background-color: tomato;
     margin: 20px auto;
-    width: 75%;
+    padding: 2px;
+    width: 70%;
 }
 
 .main-content {
-    height: 250px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
     background-color: antiquewhite;
     width: 100%;
-    padding: 50px 25px;
-    box-shadow:  0 0 30px;
-    border-radius: 4px;    
+    padding: 0px 30px;
+    box-shadow:  0 0 20px;
+    border-radius: 8px;   
+    border: 2px solid crimson ; 
 }
 
 .textarea{
@@ -51,11 +67,13 @@ body{
 }
 
 #new-quote{
+    font-size: 16px;
     font-family: "Calibri";
     margin-top: 20px;
     border: none;
+    border: solid 1px tomato;
     color: black;
     background-color: antiquewhite;
     padding: 6px 8px;
-    box-shadow: 0 0 3px;
+    box-shadow: 0 0 3px;    
 }

@@ -40,9 +40,6 @@ const quotes = [
     { quote: "Arise, awake, and stop not until the goal is reached.", person: "Swami Vivekananda" },
 ];
 
-console.log(quotes[0].quote); // To access the first quote
-console.log(quotes[0].person);
-
 btn.addEventListener("click", function(){
 
     let random = Math.floor(Math.random() * quotes.length);
