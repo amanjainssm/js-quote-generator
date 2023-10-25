@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&family=Sometype+Mono:wght@400;500;600&display=swap');
-
 *{
     margin: 0%;
     padding: 0%;
@@ -42,12 +40,12 @@ body::after {
     height: 270px;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center horizontally */
+    justify-content: center;
     align-items: center;
     background-color: antiquewhite;
     width: 100%;
     padding: 0px 30px;
-    box-shadow:  0 0 20px;
+    box-shadow:  0 0 0px;
     border-radius: 8px;   
     border: 2px solid crimson ; 
 }
@@ -66,7 +64,7 @@ body::after {
     margin-top: 14px;
 }
 
-#new-quote{
+#new-quote-btn{
     font-size: 16px;
     font-family: "Calibri";
     margin-top: 20px;
